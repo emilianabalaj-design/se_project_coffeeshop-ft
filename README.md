@@ -1,6 +1,6 @@
 # Triple Peaks Coffee Shop
 
-This is my second projectin the Full-Time Software Engineering program at TripleTen. I built a minimal page for a coffe shop by using HTML and CSS, based on the design brief.
+This is my second project in the Full-Time Software Engineering program at TripleTen. I built a minimal page for a coffe shop by using HTML and CSS, based on the design brief.
 Our goal was to practice the structure of a webpage, organizing styles with BEM and creating simple animations.
 
 ## Project features
