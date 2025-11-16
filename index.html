@@ -60,7 +60,7 @@
       </header>
 
       <main class="content">
-      <section class="recipes">
+      <section class="recipes">  
         <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing convenience:
@@ -92,6 +92,64 @@
       </li>
        </ul>
       </section>
+    
+      <section class="reservation">
+        <h2 class="reservation__title">Book a Table</h2>
+
+        <form class="form reservation__form">
+          <fieldset class="form__fieldset">
+
+            <label for="name" class="form__label">
+              Name *
+            <input 
+            type="text" 
+            class="form__input"
+            id="name"
+            placeholder="Full name"
+            required>
+            </label>
+
+            <label for="guests" class="form__label">
+              Number of guests *
+            <input 
+            type="number" 
+            class="form__input"
+            id="guests"
+            placeholder="e.g., 3"
+            required>
+            </label>
+
+            <label for="datetime" class="form__label">
+              Date and time *
+            <input 
+            type="datetime-local" 
+            class="form__input"
+            id="datetime"
+            required>
+            </label>
+
+            <label for="email" class="form__label">
+              Your email *
+            <input 
+            type="email" 
+            class="form__input"
+            id="email"
+            placeholder="e.g., emilianabalaj@gmail.com"
+            required>
+            </label>
+          </fieldset>
+
+          <button type="submit" class="form__button">Book a table</button>
+          <label for="terms-of-use" class="form__label form__label_type_checkbox">
+            <input 
+            id="terms-of-use" 
+            type="checkbox" 
+            class="form__checkbox"
+            required>
+            I agree with the terms of use
+          </label>
+          </form>
+      </section>
       </main>
 
       <footer class="footer">
@@ -99,8 +157,7 @@
           <img
             src="./images/logo_coffeeshop_light.svg"
             alt="Triple Peaks Logo"
-            class="footer__logo"
-          />
+            class="footer__logo">
           <div>
             <h4 class="footer__social-heading">Social media</h4>
             <ul class="footer__list">
