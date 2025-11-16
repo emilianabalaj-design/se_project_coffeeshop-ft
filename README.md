@@ -13,4 +13,6 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+* I want to make the layout look better on smaller screens.
+* I plan to upload the project to GitHub Pages so its live online.
+* Add dark mode
